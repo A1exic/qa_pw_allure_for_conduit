@@ -1,4 +1,6 @@
 import { test as base } from '@playwright/test';
+import * as fs from 'fs';
+import * as path from 'path';
 import { Logger } from '../../src/common/logger/Logger';
 import { generateNewUserData } from '../../src/common/testData/generateNewUserData';
 import * as allure from 'allure-js-commons';
